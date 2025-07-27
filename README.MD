@@ -16,6 +16,11 @@ E-Learning (CodeIgniter 4)
 
 Proyek ini bertujuan untuk menciptakan sebuah platform digital yang memfasilitasi proses belajar mengajar. Guru dapat dengan mudah mengelola materi pelajaran dan membuat kuis penilaian, sementara siswa dapat mengakses materi dan mengerjakan tugas secara online dari mana saja.
 
+### Template
+
+- [Admin By: Iqonic](https://templates.iqonic.design/product/lite/streamit/html/dashboard/index.html)
+- [User By: templatemo](https://templatemo.com/live/templatemo_592_glossy_touch)
+
 ## ✨ Fitur Utama
 
 ### 👨‍🏫 Untuk Guru:
