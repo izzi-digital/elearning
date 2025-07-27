@@ -61,12 +61,12 @@
             <h2>Sign In</h2>
             <form>
               <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <label for="email-login">Email Address</label>
+                <input type="email" id="email-login" name="email" placeholder="Enter your email" required>
               </div>
               <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <label for="password-login">Password</label>
+                <input type="password" id="password-login" name="password" placeholder="Enter your password" required>
               </div>
               <button type="submit" class="cta-button">Sign In</button>
             </form>
@@ -84,12 +84,12 @@
                 <input type="text" id="class" name="class" placeholder="Enter your class room" required>
               </div>
               <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <label for="email-register">Email Address</label>
+                <input type="email" id="email-register" name="email" placeholder="Enter your email" required>
               </div>
               <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <label for="password-register">Password</label>
+                <input type="password" id="password-register" name="password" placeholder="Enter your password" required>
               </div>
               <button type="submit" class="cta-button">Register</button>
             </form>
