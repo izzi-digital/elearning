@@ -12,13 +12,13 @@ E-Learning (CodeIgniter 4)
 
 ---
 
-### 📝 Deskripsi
+## 📝 Deskripsi
 
 Proyek ini bertujuan untuk menciptakan sebuah platform digital yang memfasilitasi proses belajar mengajar. Guru dapat dengan mudah mengelola materi pelajaran dan membuat kuis penilaian, sementara siswa dapat mengakses materi dan mengerjakan tugas secara online dari mana saja.
 
-### ✨ Fitur Utama
+## ✨ Fitur Utama
 
-## 👨‍🏫 Untuk Guru:
+### 👨‍🏫 Untuk Guru:
 
 - Manajemen Materi (CRUD)
 - Manajemen Kuis (Pilihan Ganda & Esai)
@@ -26,14 +26,14 @@ Proyek ini bertujuan untuk menciptakan sebuah platform digital yang memfasilitas
 - Penilaian Jawaban Esai secara Manual
 - Melihat Rekap Nilai Siswa
 
-## 👨‍🎓 Untuk Siswa:
+### 👨‍🎓 Untuk Siswa:
 
 - Akses Materi Pembelajaran
 - Mengerjakan Kuis secara Online
 - Melihat Riwayat Nilai dan Hasil Kuis
 - Dasbor personal untuk melihat tugas yang akan datang
 
-### 🛠️ Teknologi yang Digunakan
+## 🛠️ Teknologi yang Digunakan
 
 - Framework: CodeIgniter 4
 - Bahasa: PHP 7.4+
@@ -41,9 +41,9 @@ Proyek ini bertujuan untuk menciptakan sebuah platform digital yang memfasilitas
 - Frontend: HTML, CSS, JavaScript (Bootstrap 5)
 - Manajemen Dependensi: Composer
 
-### 🚀 Persyaratan Server
+## 🚀 Persyaratan Server
 
-## Pastikan server atau lingkungan lokal Anda memenuhi persyaratan berikut:
+### Pastikan server atau lingkungan lokal Anda memenuhi persyaratan berikut:
 
 - PHP versi 7.4 atau lebih baru.
 - Ekstensi PHP: intl, mbstring, json, mysqlnd, xml, curl.
@@ -52,29 +52,29 @@ Proyek ini bertujuan untuk menciptakan sebuah platform digital yang memfasilitas
 
 ### ⚙️ Cara Instalasi
 
-## Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal Anda.
+### Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal Anda.
 
 - Clone Repository
-  git clone https://github.com/izzi-digital/elearning.git
+  `git clone https://github.com/izzi-digital/elearning.git`
 
 - Instal Dependensi PHP
-  composer install
+  `composer install`
 
 - Konfigurasi Lingkungan (.env)
-  cp env .env
+  `cp env .env`
 
 - Atur Lingkungan
-  CI_ENVIRONMENT = development
+  `CI_ENVIRONMENT = development`
 
 - Atur Base URL (sesuaikan dengan URL di server lokal Anda)
-  app.baseURL = 'http://localhost/elearning/public/'
+  `app.baseURL = 'http://localhost/elearning/public/'`
 
 - Konfigurasi Koneksi Database
-  database.default.hostname = localhost
-  database.default.database = elearning
-  database.default.username = root
-  database.default.password =
-  database.default.DBDriver = MySQLi
+  `database.default.hostname = localhost`
+  `database.default.database = elearning`
+  `database.default.username = root`
+  `database.default.password =`
+  `database.default.DBDriver = MySQLi`
 
 ## Penting:
 
@@ -87,9 +87,9 @@ Proyek ini bertujuan untuk menciptakan sebuah platform digital yang memfasilitas
 
 - Aplikasi Anda sekarang sudah berjalan dan dapat diakses melalui http://localhost:8080.
 
-### 🤝 Kontribusi
+## 🤝 Kontribusi
 
-## Kontribusi dari Anda sangat kami harapkan! Jika Anda ingin berkontribusi, silakan lakukan fork pada repository ini, buat branch baru untuk fitur atau perbaikan Anda, dan kirimkan Pull Request.
+### Kontribusi dari Anda sangat kami harapkan! Jika Anda ingin berkontribusi, silakan lakukan fork pada repository ini, buat branch baru untuk fitur atau perbaikan Anda, dan kirimkan Pull Request.
 
 - Fork repository ini.
 - Buat branch fitur baru (git checkout -b fitur/fitur-keren).
@@ -97,10 +97,10 @@ Proyek ini bertujuan untuk menciptakan sebuah platform digital yang memfasilitas
 - Push ke branch (git push origin fitur/fitur-keren).
 - Buka sebuah Pull Request.
 
-### 📄 Lisensi
+## 📄 Lisensi
 
-## Proyek ini dilisensikan di bawah Lisensi MIT.
+### Proyek ini dilisensikan di bawah Lisensi MIT.
 
-# Lihat file LICENSE untuk detail lebih lanjut.
+- Lihat file LICENSE untuk detail lebih lanjut.
 
 # Dibuat dengan semangat untuk memajukan pendidikan digital di Indonesia.
