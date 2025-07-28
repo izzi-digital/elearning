@@ -5,6 +5,15 @@ function base($page, $data)
   return view('Student/' . $page, $data);
 }
 
+function page($page, $data)
+{
+  if (Auth()['role'] == 'teacher') {
+    return view('Teacher/' . $page, $data);
+  } else {
+    return view('Student/' . $page, $data);
+  }
+}
+
 function teacher($page, $data)
 {
   return view('Teacher/' . $page, $data);

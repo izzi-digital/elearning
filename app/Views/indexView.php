@@ -6,9 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E-Learning</title>
 
-  <link rel="stylesheet" href="assets/student/templatemo-glossy-touch.css">
+  <link rel="stylesheet" href="assets/student/templatemo-glossy-touch.css?r=" <?= time() ?>>
   <style>
+    .card {
+      padding: 20px 50px;
+      margin: 30px 0;
+    }
 
+    .text-white {
+      color: white !important;
+    }
+
+    .text-red {
+      color: red !important;
+    }
   </style>
 </head>
 
@@ -59,40 +70,63 @@
         <section class="contact-grid">
           <div class="contact-form glass">
             <h2>Sign In</h2>
-            <form>
-              <div class="form-group">
-                <label for="email-login">Email Address</label>
-                <input type="email" id="email-login" name="email" placeholder="Enter your email" required>
+            <?= form_open(base_url('login')) ?>
+            <div class="form-group">
+              <label for="email-login">Email Address</label>
+              <input type="email" id="email-login" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="password-login">Password</label>
+              <input type="password" id="password-login" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="cta-button">Sign In</button>
+            <?= form_close() ?>
+
+            <?php if (session()->getFlashdata('login_errors')) : ?>
+              <div class="card glass">
+                <p class="text-red">Error!</p>
+                <ul class="text-white">
+                  <?php foreach (session()->getFlashdata('login_errors') as $item) : ?>
+                    <li><?= $item ?></li>
+                  <?php endforeach ?>
+                </ul>
               </div>
-              <div class="form-group">
-                <label for="password-login">Password</label>
-                <input type="password" id="password-login" name="password" placeholder="Enter your password" required>
-              </div>
-              <button type="submit" class="cta-button">Sign In</button>
-            </form>
+            <?php endif ?>
+
           </div>
 
           <div class="contact-info glass">
             <h2>Register</h2>
-            <form>
-              <div class="form-group">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <?= form_open(base_url('register')) ?>
+            <div class="form-group">
+              <label for="full_name">Full Name</label>
+              <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="class_room">Class Room</label>
+              <input type="text" id="class_room" name="class_room" placeholder="Enter your class room" required>
+            </div>
+            <div class="form-group">
+              <label for="email-register">Email Address</label>
+              <input type="email" id="email-register" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="password-register">Password</label>
+              <input type="password" id="password-register" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="cta-button">Register</button>
+            <?= form_close() ?>
+
+            <?php if (session()->getFlashdata('register_errors')) : ?>
+              <div class="card glass">
+                <p class="text-red">Error!</p>
+                <ul class="text-white">
+                  <?php foreach (session()->getFlashdata('register_errors') as $item) : ?>
+                    <li><?= $item ?></li>
+                  <?php endforeach ?>
+                </ul>
               </div>
-              <div class="form-group">
-                <label for="class">Class Room</label>
-                <input type="text" id="class" name="class" placeholder="Enter your class room" required>
-              </div>
-              <div class="form-group">
-                <label for="email-register">Email Address</label>
-                <input type="email" id="email-register" name="email" placeholder="Enter your email" required>
-              </div>
-              <div class="form-group">
-                <label for="password-register">Password</label>
-                <input type="password" id="password-register" name="password" placeholder="Enter your password" required>
-              </div>
-              <button type="submit" class="cta-button">Register</button>
-            </form>
+            <?php endif ?>
           </div>
         </section>
       </div>
@@ -112,7 +146,43 @@
       </footer>
     </div>
   </div>
-  <script src="assets/student/templatemo-glossy-touch.js"></script>
+  <script src="assets/student/templatemo-glossy-touch.js?r=" <?= time() ?>></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    <?php
+    if (session()->getFlashdata('info')) {
+    ?>
+      Swal.fire({
+        icon: '<?= session()->getFlashdata('info') ?>',
+        title: '<?= session()->getFlashdata('message') ?>',
+        text: '<?= session()->getFlashdata('text') ?>',
+      })
+    <?php
+    }
+    ?>
+
+    <?php
+    if (session()->getFlashdata('success')) {
+    ?>
+      Swal.fire({
+        icon: 'success',
+        text: '<?= session()->getFlashdata('success') ?>',
+      })
+    <?php
+    }
+    ?>
+
+    <?php
+    if (session()->getFlashdata('error')) {
+    ?>
+      Swal.fire({
+        icon: 'error',
+        text: '<?= session()->getFlashdata('error') ?>',
+      })
+    <?php
+    }
+    ?>
+  </script>
 </body>
 
 </html>
