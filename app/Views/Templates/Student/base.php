@@ -82,7 +82,8 @@
           <div class="feature-card glass">
             <div class="feature-icon">✨</div>
             <h3>Modern Design</h3>
-            <p>Beautiful glass morphism effects with backdrop blur and translucent elements that create depth and visual hierarchy.</p>
+            <!-- <p>Beautiful glass morphism effects with backdrop blur and translucent elements that create depth and visual hierarchy.</p> -->
+            <a href="#" class="cta-button">Open</a>
           </div>
 
           <div class="feature-card glass">
