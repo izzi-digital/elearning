@@ -70,12 +70,7 @@ class AuthController extends BaseController
 
         if ($user && password_verify($password, $user['password'])) {
             $this->setUserSession($user);
-
-            if ($user['role'] == 'teacher') {
-                return redirect()->to('/Teacher/Dashboard');
-            } else {
-                return redirect()->to('/Student/Dashboard');
-            }
+            return redirect()->to('/Dashboard');
         }
 
         session()->setFlashdata('error', 'Email atau Password salah.');
