@@ -13,6 +13,9 @@
 </head>
 
 <body>
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
   <div class="bg-shapes">
     <div class="shape"></div>
     <div class="shape"></div>
@@ -382,6 +385,38 @@
     <?php
     }
     ?>
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Quotes
+      const quotes = [
+        "Informatika adalah seni mengubah kerumitan menjadi kesederhanaan melalui logika dan kode.",
+        "Mempelajari informatika bukan hanya belajar tentang masa kini, tetapi membangun fondasi untuk masa depan yang belum terbayangkan.",
+        "Di dunia yang digerakkan oleh data, mereka yang mengerti informatika adalah para navigatornya.",
+        "Satu baris data adalah bisikan, jutaan baris adalah pengetahuan. Informatika mengajarkan kita cara mendengarkannya.",
+        "Jangan hanya menggunakan teknologi, pahamilah cara kerjanya. Itulah inti dari semangat informatika.",
+        "Inti dari informatika bukanlah tentang komputer, tetapi tentang cara berpikir untuk memecahkan masalah secara sistematis.",
+        "Setiap bug adalah teka-teki, dan setiap programmer adalah detektif. Informatika melatih kita untuk tidak pernah menyerah pada misteri.",
+        "Algoritma yang elegan adalah bukti bahwa solusi paling efisien seringkali adalah yang paling indah.",
+        "Kode adalah puisi. Setiap algoritma adalah sajak, dan setiap program adalah sebuah cerita yang dieksekusi oleh mesin.",
+        "Informatika adalah jembatan yang menghubungkan imajinasi manusia dengan kekuatan eksekusi mesin.",
+      ];
+
+      const quoteElement = document.getElementById("quote-display");
+
+      let currentIndex = 0;
+
+      function changeQuote() {
+        quoteElement.style.opacity = 0;
+        setTimeout(() => {
+          currentIndex = (currentIndex + 1) % quotes.length;
+          quoteElement.textContent = quotes[currentIndex];
+          quoteElement.style.opacity = 1;
+        }, 500);
+      }
+      quoteElement.textContent = quotes[currentIndex];
+      setInterval(changeQuote, 10000);
+    });
   </script>
 </body>
 

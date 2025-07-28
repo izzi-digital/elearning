@@ -7,6 +7,7 @@
   <title>E-Learning</title>
 
   <link rel="stylesheet" href="assets/student/templatemo-glossy-touch.css?r=" <?= time() ?>>
+  <link rel="stylesheet" href="<?= base_url() . 'assets/student/style.css?r=' . time() ?>">
   <style>
     .card {
       padding: 20px 50px;
@@ -24,6 +25,9 @@
 </head>
 
 <body>
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
   <div class="bg-shapes">
     <div class="shape"></div>
     <div class="shape"></div>
@@ -146,6 +150,8 @@
       </footer>
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="<?= base_url() . 'assets/student/script.js?r=' . time() ?>"></script>
   <script src="assets/student/templatemo-glossy-touch.js?r=" <?= time() ?>></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script>
