@@ -9,6 +9,7 @@ $routes->get('/', 'AuthController::index');
 $routes->post('/login', 'AuthController::processLogin');
 $routes->post('/register', 'AuthController::processRegister');
 $routes->get('/logout', 'AuthController::logout');
+$routes->get('/Dashboard', 'Dashboard::index');
 
 $routes->group('', ['filter' => 'auth'], function ($routes) {
   // Rute untuk Guru

@@ -18,10 +18,7 @@ class AuthController extends BaseController
     public function index()
     {
         if (session()->get('isLoggedIn')) {
-            if (session()->get('role') == 'teacher') {
-                return redirect()->to('/Teacher/Dashboard');
-            }
-            return redirect()->to('/Student/Dashboard');
+            return redirect()->to('/Dashboard');
         }
 
         $data['title'] = 'Login & Register';
