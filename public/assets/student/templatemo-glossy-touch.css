@@ -234,6 +234,12 @@ nav {
   text-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   line-height: 1.2;
 }
+.hero h2 {
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  line-height: 1.2;
+}
 .hero p {
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.9);
