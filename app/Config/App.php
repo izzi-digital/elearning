@@ -199,4 +199,29 @@ class App extends BaseConfig
      * @see http://www.w3.org/TR/CSP/
      */
     public bool $CSPEnabled = false;
+
+    /**
+     * Constructor.
+     * Di sinilah kita akan mengatur baseURL secara dinamis.
+     */
+    public function __construct()
+    {
+        parent::__construct(); // Panggil constructor dari parent
+
+        if (ENVIRONMENT === 'development') {
+            if (isset($_SERVER['HTTP_HOST'])) {
+                $scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? "https" : "http";
+                $host = $_SERVER['HTTP_HOST'];
+                $path = rtrim(str_replace('index.php', '', $_SERVER['SCRIPT_NAME']), '/');
+                $this->baseURL = "{$scheme}://{$host}{$path}/";
+            }
+        }
+
+        // if (isset($_SERVER['HTTP_HOST'])) {
+        //     $scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? "https" : "http";
+        //     $host = $_SERVER['HTTP_HOST'];
+        //     $path = rtrim(str_replace('index.php', '', $_SERVER['SCRIPT_NAME']), '/');
+        //     $this->baseURL = "{$scheme}://{$host}{$path}/";
+        // }
+    }
 }
