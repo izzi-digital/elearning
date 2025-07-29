@@ -7,6 +7,10 @@ function base($page, $data)
 
 function page($page, $data)
 {
+  if (!session()->get('isLoggedIn')) {
+    return redirect()->to('/');
+  }
+
   if (Auth()['role'] == 'teacher') {
     return view('Teacher/' . $page, $data);
   } else {

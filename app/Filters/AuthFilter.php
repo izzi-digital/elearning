@@ -19,10 +19,10 @@ class AuthFilter implements FilterInterface
    */
   public function before(RequestInterface $request, $arguments = null)
   {
-    // Cek apakah session 'isLoggedIn' TIDAK ada atau bernilai false
-    if (!session()->get('isLoggedIn')) {
-      // Jika pengguna belum login, paksa mereka kembali ke halaman utama (halaman login)
-      return redirect()->to('/');
+    helper('auth');
+    $auth = Auth();
+    if ($auth == false) {
+      return redirect()->to(base_url());
     }
   }
 

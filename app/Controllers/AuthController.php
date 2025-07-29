@@ -17,7 +17,7 @@ class AuthController extends BaseController
 
     public function index()
     {
-        if (session()->get('isLoggedIn')) {
+        if (Auth()) {
             return redirect()->to('/Dashboard');
         }
 
