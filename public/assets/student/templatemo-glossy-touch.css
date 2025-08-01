@@ -301,9 +301,14 @@ button[type="submit"] {
   margin-bottom: 15px;
   color: white;
 }
+.feature-card h4 {
+  margin-bottom: 15px;
+  color: white;
+}
 .feature-card p {
   color: rgba(255, 255, 255, 0.8);
   line-height: 1.6;
+  margin-bottom: 15px;
 }
 /* About page styles */
 .about-content {
@@ -532,7 +537,9 @@ button[type="submit"] {
 .form-group textarea:focus,
 .form-group select:focus {
   outline: none;
-  background: rgba(255, 255, 255, 0.15);
+  color: black;
+  /* background: rgba(255, 255, 255, 0.15); */
+  background: rgba(255, 255, 255, 0.4);
   border-color: rgba(255, 255, 255, 0.4);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }

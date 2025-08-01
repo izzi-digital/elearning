@@ -120,7 +120,12 @@
             </div>
             <div class="form-group">
               <label for="class_room">Class Room</label>
-              <input type="text" id="class_room" name="class_room" placeholder="Enter your class room" required>
+              <select name="class_room" id="class_room" required>
+                <option value="">-- Pilih Kelas --</option>
+                <?php foreach ($listKelas as $key => $kelas) : ?>
+                  <option value="<?= $kelas['id'] ?>"><?= $kelas['nama_kelas'] ?></option>
+                <?php endforeach ?>
+              </select>
             </div>
             <div class="form-group">
               <label for="email-register">Email Address</label>

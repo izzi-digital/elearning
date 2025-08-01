@@ -20,7 +20,7 @@ class AuthController extends BaseController
         if (Auth()) {
             return redirect()->to('/Dashboard');
         }
-
+        $data['listKelas'] = model('KelasModel')->orderBy('nama_kelas asc')->findAll();
         $data['title'] = 'Login & Register';
         return view('indexView', $data);
     }
