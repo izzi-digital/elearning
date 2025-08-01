@@ -515,7 +515,8 @@ button[type="submit"] {
   font-weight: 500;
 }
 .form-group input,
-.form-group textarea {
+.form-group textarea,
+.form-group select {
   width: 100%;
   padding: 15px;
   background: rgba(255, 255, 255, 0.1);
@@ -528,7 +529,8 @@ button[type="submit"] {
   transition: all 0.3s ease;
 }
 .form-group input:focus,
-.form-group textarea:focus {
+.form-group textarea:focus,
+.form-group select:focus {
   outline: none;
   background: rgba(255, 255, 255, 0.15);
   border-color: rgba(255, 255, 255, 0.4);

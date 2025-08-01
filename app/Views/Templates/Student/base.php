@@ -104,7 +104,13 @@
             ?>
             <?php foreach ($teams as $team) : ?>
               <div class="team-member glass">
-                <div class="team-avatar">🧕</div>
+                <div class="team-avatar">
+                  <?php if ($team['jekel'] == 'P') : ?>
+                    🧕
+                  <?php else : ?>
+                    👨‍💻
+                  <?php endif ?>
+                </div>
                 <h3><?= $team['full_name'] ?></h3>
                 <!-- <p class="role">Senior Developer</p>
                 <p class="bio">Frontend specialist with expertise in React and modern JavaScript frameworks.</p>

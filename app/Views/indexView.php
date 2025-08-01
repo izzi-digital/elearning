@@ -111,6 +111,14 @@
               <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
             </div>
             <div class="form-group">
+              <label for="jekel">L/P</label>
+              <select name="jekel" id="jekel" required>
+                <option value="">-- Pilih L/P --</option>
+                <option value="L">Laki-laki</option>
+                <option value="L">Perempuan</option>
+              </select>
+            </div>
+            <div class="form-group">
               <label for="class_room">Class Room</label>
               <input type="text" id="class_room" name="class_room" placeholder="Enter your class room" required>
             </div>
