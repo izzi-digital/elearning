@@ -9,7 +9,7 @@ class Dashboard extends BaseController
 {
     public function index()
     {
-        $data['title'] = 'E-Learning';
+        $data['title'] = 'Smart Learning';
         return page('dashboard', $data);
     }
 }

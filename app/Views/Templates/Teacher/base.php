@@ -7,17 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title><?= $title ?></title>
   <!-- Favicon -->
-  <link rel="shortcut icon" href="<?= base_url() ?>public/assets/teacher/images/favicon.ico" />
+  <link rel="shortcut icon" href="<?= base_url() ?>assets/teacher/images/favicon.ico" />
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="<?= base_url() ?>public/assets/teacher/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>assets/teacher/css/bootstrap.min.css">
   <!--datatable CSS -->
-  <link rel="stylesheet" href="<?= base_url() ?>public/assets/teacher/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>assets/teacher/css/dataTables.bootstrap4.min.css">
   <!-- Typography CSS -->
-  <link rel="stylesheet" href="<?= base_url() ?>public/assets/teacher/css/typography.css">
+  <link rel="stylesheet" href="<?= base_url() ?>assets/teacher/css/typography.css">
   <!-- Style CSS -->
-  <link rel="stylesheet" href="<?= base_url() ?>public/assets/teacher/css/style.css">
+  <link rel="stylesheet" href="<?= base_url() ?>assets/teacher/css/style.css">
   <!-- Responsive CSS -->
-  <link rel="stylesheet" href="<?= base_url() ?>public/assets/teacher/css/responsive.css">
+  <link rel="stylesheet" href="<?= base_url() ?>assets/teacher/css/responsive.css">
 </head>
 
 <body>
@@ -161,7 +161,7 @@
             </div>
             <div class="iq-navbar-logo d-flex justify-content-between">
               <a href="index.html" class="header-logo">
-                <img src="<?= base_url() ?>public/assets/teacher/images/logo.png" class="img-fluid rounded-normal" alt="">
+                <img src="<?= base_url() ?>assets/teacher/images/logo.png" class="img-fluid rounded-normal" alt="">
                 <div class="logo-title">
                   <span class="text-primary text-uppercase">E-Learning</span>
                 </div>
@@ -202,7 +202,7 @@
                       <a href="#" class="iq-sub-card">
                         <div class="media align-items-center">
                           <div class="">
-                            <img class="avatar-40 rounded" src="<?= base_url() ?>public/assets/teacher/images/user/01.jpg" alt="">
+                            <img class="avatar-40 rounded" src="<?= base_url() ?>assets/teacher/images/user/01.jpg" alt="">
                           </div>
                           <div class="media-body ml-3">
                             <h6 class="mb-0 ">Emma Watson Barry</h6>
@@ -214,7 +214,7 @@
                       <a href="#" class="iq-sub-card">
                         <div class="media align-items-center">
                           <div class="">
-                            <img class="avatar-40 rounded" src="<?= base_url() ?>public/assets/teacher/images/user/02.jpg" alt="">
+                            <img class="avatar-40 rounded" src="<?= base_url() ?>assets/teacher/images/user/02.jpg" alt="">
                           </div>
                           <div class="media-body ml-3">
                             <h6 class="mb-0 ">New customer is join</h6>
@@ -226,7 +226,7 @@
                       <a href="#" class="iq-sub-card">
                         <div class="media align-items-center">
                           <div class="">
-                            <img class="avatar-40 rounded" src="<?= base_url() ?>public/assets/teacher/images/user/03.jpg" alt="">
+                            <img class="avatar-40 rounded" src="<?= base_url() ?>assets/teacher/images/user/03.jpg" alt="">
                           </div>
                           <div class="media-body ml-3">
                             <h6 class="mb-0 ">Two customer is left</h6>
@@ -238,7 +238,7 @@
                       <a href="#" class="iq-sub-card">
                         <div class="media align-items-center">
                           <div class="">
-                            <img class="avatar-40 rounded" src="<?= base_url() ?>public/assets/teacher/images/user/04.jpg" alt="">
+                            <img class="avatar-40 rounded" src="<?= base_url() ?>assets/teacher/images/user/04.jpg" alt="">
                           </div>
                           <div class="media-body ml-3">
                             <h6 class="mb-0 ">New Mail from Fenny</h6>
@@ -265,7 +265,7 @@
                       <a href="#" class="iq-sub-card">
                         <div class="media align-items-center">
                           <div class="">
-                            <img class="avatar-40 rounded" src="<?= base_url() ?>public/assets/teacher/images/user/01.jpg" alt="">
+                            <img class="avatar-40 rounded" src="<?= base_url() ?>assets/teacher/images/user/01.jpg" alt="">
                           </div>
                           <div class="media-body ml-3">
                             <h6 class="mb-0 ">Barry Emma Watson</h6>
@@ -276,7 +276,7 @@
                       <a href="#" class="iq-sub-card">
                         <div class="media align-items-center">
                           <div class="">
-                            <img class="avatar-40 rounded" src="<?= base_url() ?>public/assets/teacher/images/user/02.jpg" alt="">
+                            <img class="avatar-40 rounded" src="<?= base_url() ?>assets/teacher/images/user/02.jpg" alt="">
                           </div>
                           <div class="media-body ml-3">
                             <h6 class="mb-0 ">Lorem Ipsum Watson</h6>
@@ -287,7 +287,7 @@
                       <a href="#" class="iq-sub-card">
                         <div class="media align-items-center">
                           <div class="">
-                            <img class="avatar-40 rounded" src="<?= base_url() ?>public/assets/teacher/images/user/03.jpg" alt="">
+                            <img class="avatar-40 rounded" src="<?= base_url() ?>assets/teacher/images/user/03.jpg" alt="">
                           </div>
                           <div class="media-body ml-3">
                             <h6 class="mb-0 ">Why do we use it?</h6>
@@ -298,7 +298,7 @@
                       <a href="#" class="iq-sub-card">
                         <div class="media align-items-center">
                           <div class="">
-                            <img class="avatar-40 rounded" src="<?= base_url() ?>public/assets/teacher/images/user/04.jpg" alt="">
+                            <img class="avatar-40 rounded" src="<?= base_url() ?>assets/teacher/images/user/04.jpg" alt="">
                           </div>
                           <div class="media-body ml-3">
                             <h6 class="mb-0 ">Variations Passages</h6>
@@ -309,7 +309,7 @@
                       <a href="#" class="iq-sub-card">
                         <div class="media align-items-center">
                           <div class="">
-                            <img class="avatar-40 rounded" src="<?= base_url() ?>public/assets/teacher/images/user/05.jpg" alt="">
+                            <img class="avatar-40 rounded" src="<?= base_url() ?>assets/teacher/images/user/05.jpg" alt="">
                           </div>
                           <div class="media-body ml-3">
                             <h6 class="mb-0 ">Lorem Ipsum generators</h6>
@@ -323,7 +323,7 @@
               </li>
               <li class="line-height pt-3">
                 <a href="#" class="search-toggle iq-waves-effect d-flex align-items-center">
-                  <img src="<?= base_url() ?>public/assets/teacher/images/user/1.jpg" class="img-fluid rounded-circle mr-3" alt="user">
+                  <img src="<?= base_url() ?>assets/teacher/images/user/1.jpg" class="img-fluid rounded-circle mr-3" alt="user">
                 </a>
                 <div class="iq-sub-dropdown iq-user-dropdown">
                   <div class="iq-card shadow-none m-0">
@@ -490,7 +490,7 @@
                       <div class="iq-card-body p-0">
                         <div class="iq-thumb">
                           <a href="javascript:void(0)">
-                            <img src="<?= base_url() ?>public/assets/teacher/images/dashboard/01.jpg" class="img-fluid w-100 img-border-radius" alt="">
+                            <img src="<?= base_url() ?>assets/teacher/images/dashboard/01.jpg" class="img-fluid w-100 img-border-radius" alt="">
                           </a>
                         </div>
                         <div class="iq-feature-list">
@@ -509,7 +509,7 @@
                       <div class="iq-card-body p-0">
                         <div class="iq-thumb">
                           <a href="javascript:void(0)">
-                            <img src="<?= base_url() ?>public/assets/teacher/images/dashboard/02.jpg" class="img-fluid w-100 img-border-radius" alt="">
+                            <img src="<?= base_url() ?>assets/teacher/images/dashboard/02.jpg" class="img-fluid w-100 img-border-radius" alt="">
                           </a>
                         </div>
                         <div class="iq-feature-list">
@@ -528,7 +528,7 @@
                       <div class="iq-card-body p-0">
                         <div class="iq-thumb">
                           <a href="javascript:void(0)">
-                            <img src="<?= base_url() ?>public/assets/teacher/images/dashboard/03.jpg" class="img-fluid w-100 img-border-radius" alt="">
+                            <img src="<?= base_url() ?>assets/teacher/images/dashboard/03.jpg" class="img-fluid w-100 img-border-radius" alt="">
                           </a>
                         </div>
                         <div class="iq-feature-list">
@@ -547,7 +547,7 @@
                       <div class="iq-card-body p-0">
                         <div class="iq-thumb">
                           <a href="javascript:void(0)">
-                            <img src="<?= base_url() ?>public/assets/teacher/images/dashboard/04.jpg" class="img-fluid w-100 img-border-radius" alt="">
+                            <img src="<?= base_url() ?>assets/teacher/images/dashboard/04.jpg" class="img-fluid w-100 img-border-radius" alt="">
                           </a>
                         </div>
                         <div class="iq-feature-list">
@@ -566,7 +566,7 @@
                       <div class="iq-card-body p-0">
                         <div class="iq-thumb">
                           <a href="javascript:void(0)">
-                            <img src="<?= base_url() ?>public/assets/teacher/images/dashboard/05.jpg" class="img-fluid w-100 img-border-radius" alt="">
+                            <img src="<?= base_url() ?>assets/teacher/images/dashboard/05.jpg" class="img-fluid w-100 img-border-radius" alt="">
                           </a>
                         </div>
                         <div class="iq-feature-list">
@@ -585,7 +585,7 @@
                       <div class="iq-card-body p-0">
                         <div class="iq-thumb">
                           <a href="javascript:void(0)">
-                            <img src="<?= base_url() ?>public/assets/teacher/images/dashboard/06.jpg" class="img-fluid w-100 img-border-radius" alt="">
+                            <img src="<?= base_url() ?>assets/teacher/images/dashboard/06.jpg" class="img-fluid w-100 img-border-radius" alt="">
                           </a>
                         </div>
                         <div class="iq-feature-list">
@@ -821,7 +821,7 @@
                         <td>
                           <div class="media align-items-center">
                             <div class="iq-movie">
-                              <a href="javascript:void(0);"><img src="<?= base_url() ?>public/assets/teacher/images/movie-thumb/01.jpg" class="img-border-radius avatar-40 img-fluid" alt=""></a>
+                              <a href="javascript:void(0);"><img src="<?= base_url() ?>assets/teacher/images/movie-thumb/01.jpg" class="img-border-radius avatar-40 img-fluid" alt=""></a>
                             </div>
                             <div class="media-body text-white text-left ml-3">
                               <p class="mb-0">Champions</p>
@@ -842,7 +842,7 @@
                         <td>
                           <div class="media align-items-center">
                             <div class="iq-movie">
-                              <a href="javascript:void(0);"><img src="<?= base_url() ?>public/assets/teacher/images/show-thumb/05.jpg" class="img-border-radius avatar-40 img-fluid" alt=""></a>
+                              <a href="javascript:void(0);"><img src="<?= base_url() ?>assets/teacher/images/show-thumb/05.jpg" class="img-border-radius avatar-40 img-fluid" alt=""></a>
                             </div>
                             <div class="media-body text-white text-left ml-3">
                               <p class="mb-0">Last Race</p>
@@ -862,7 +862,7 @@
                         <td>
                           <div class="media align-items-center">
                             <div class="iq-movie">
-                              <a href="javascript:void(0);"><img src="<?= base_url() ?>public/assets/teacher/images/show-thumb/07.jpg" class="img-border-radius avatar-40 img-fluid" alt=""></a>
+                              <a href="javascript:void(0);"><img src="<?= base_url() ?>assets/teacher/images/show-thumb/07.jpg" class="img-border-radius avatar-40 img-fluid" alt=""></a>
                             </div>
                             <div class="media-body text-white text-left ml-3">
                               <p class="mb-0">Boop Bitty</p>
@@ -882,7 +882,7 @@
                         <td>
                           <div class="media align-items-center">
                             <div class="iq-movie">
-                              <a href="javascript:void(0);"><img src="<?= base_url() ?>public/assets/teacher/images/show-thumb/10.jpg" class="img-border-radius avatar-40 img-fluid" alt=""></a>
+                              <a href="javascript:void(0);"><img src="<?= base_url() ?>assets/teacher/images/show-thumb/10.jpg" class="img-border-radius avatar-40 img-fluid" alt=""></a>
                             </div>
                             <div class="media-body text-white text-left ml-3">
                               <p class="mb-0">Dino Land</p>
@@ -902,7 +902,7 @@
                         <td>
                           <div class="media align-items-center">
                             <div class="iq-movie">
-                              <a href="javascript:void(0);"><img src="<?= base_url() ?>public/assets/teacher/images/show-thumb/04.jpg" class="img-border-radius avatar-40 img-fluid" alt=""></a>
+                              <a href="javascript:void(0);"><img src="<?= base_url() ?>assets/teacher/images/show-thumb/04.jpg" class="img-border-radius avatar-40 img-fluid" alt=""></a>
                             </div>
                             <div class="media-body text-white text-left ml-3">
                               <p class="mb-0">The Last Breath</p>
@@ -949,36 +949,36 @@
   <!-- Footer END -->
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/jquery.min.js"></script>
-  <script src="<?= base_url() ?>public/assets/teacher/js/popper.min.js"></script>
-  <script src="<?= base_url() ?>public/assets/teacher/js/bootstrap.min.js"></script>
-  <script src="<?= base_url() ?>public/assets/teacher/js/jquery.dataTables.min.js"></script>
-  <script src="<?= base_url() ?>public/assets/teacher/js/dataTables.bootstrap4.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/jquery.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/popper.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/bootstrap.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/jquery.dataTables.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/dataTables.bootstrap4.min.js"></script>
   <!-- Appear JavaScript -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/jquery.appear.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/jquery.appear.js"></script>
   <!-- Countdown JavaScript -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/countdown.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/countdown.min.js"></script>
   <!-- Select2 JavaScript -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/select2.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/select2.min.js"></script>
   <!-- Counterup JavaScript -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/waypoints.min.js"></script>
-  <script src="<?= base_url() ?>public/assets/teacher/js/jquery.counterup.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/waypoints.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/jquery.counterup.min.js"></script>
   <!-- Wow JavaScript -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/wow.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/wow.min.js"></script>
   <!-- Slick JavaScript -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/slick.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/slick.min.js"></script>
   <!-- Owl Carousel JavaScript -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/owl.carousel.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/owl.carousel.min.js"></script>
   <!-- Magnific Popup JavaScript -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/jquery.magnific-popup.min.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/jquery.magnific-popup.min.js"></script>
   <!-- Smooth Scrollbar JavaScript -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/smooth-scrollbar.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/smooth-scrollbar.js"></script>
   <!-- apex Custom JavaScript -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/apexcharts.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/apexcharts.js"></script>
   <!-- Chart Custom JavaScript -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/chart-custom.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/chart-custom.js"></script>
   <!-- Custom JavaScript -->
-  <script src="<?= base_url() ?>public/assets/teacher/js/custom.js"></script>
+  <script src="<?= base_url() ?>assets/teacher/js/custom.js"></script>
 
 </body>
 

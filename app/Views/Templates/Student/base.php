@@ -52,9 +52,9 @@
           <span><?= $title ?></span>
         </div>
         <div class="nav-links">
-          <a href="#" onclick="showPage('home')" class="active">Home</a>
+          <a href="#" onclick="showPage('home')" class="active">KBM</a>
           <a href="#" onclick="showPage('about')">Team</a>
-          <a href="#" onclick="showPage('services')">Penilaian</a>
+          <!-- <a href="#" onclick="showPage('services')">Penilaian</a> -->
           <a href="<?= base_url('logout') ?>">Logout</a>
         </div>
       </nav>
@@ -79,42 +79,13 @@
         </section>
 
         <section class="features">
+
           <div class="feature-card glass">
             <div class="feature-icon">✨</div>
-            <h3>Modern Design</h3>
-            <!-- <p>Beautiful glass morphism effects with backdrop blur and translucent elements that create depth and visual hierarchy.</p> -->
-            <a href="#" class="cta-button">Open</a>
+            <h3>Informatika</h3>
+            <a href="#" class="cta-button">Enter</a>
           </div>
 
-          <div class="feature-card glass">
-            <div class="feature-icon">⚡</div>
-            <h3>Fast Performance</h3>
-            <p>Optimized animations and effects that maintain smooth 60fps performance across all modern browsers and devices.</p>
-          </div>
-
-          <div class="feature-card glass">
-            <div class="feature-icon">📱</div>
-            <h3>Responsive</h3>
-            <p>Fully responsive design that adapts beautifully to any screen size, from mobile phones to desktop displays.</p>
-          </div>
-
-          <div class="feature-card glass">
-            <div class="feature-icon">🎨</div>
-            <h3>Interactive UI</h3>
-            <p>Engaging hover effects, smooth transitions, and micro-animations that create delightful user experiences.</p>
-          </div>
-
-          <div class="feature-card glass">
-            <div class="feature-icon">🔒</div>
-            <h3>Secure & Safe</h3>
-            <p>Built with modern security standards and best practices to ensure your data and user privacy are protected.</p>
-          </div>
-
-          <div class="feature-card glass">
-            <div class="feature-icon">🚀</div>
-            <h3>Easy Integration</h3>
-            <p>Simple to implement and customize for any project with clean, well-documented code and flexible components.</p>
-          </div>
         </section>
       </div>
     </div>
@@ -341,7 +312,7 @@
       <footer class="glass">
         <div class="footer-content">
           <div class="copyright">
-            &copy; 2025 E-Learning. All rights reserved. Crafted with modern web technologies.
+            &copy; 2025 Smart Learning. All rights reserved. Crafted with modern web technologies.
             Provided by <a rel="nofollow" href="https://github.com/izzi-digital" target="_blank">Izzi Digital</a>
           </div>
         </div>

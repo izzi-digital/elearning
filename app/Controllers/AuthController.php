@@ -22,7 +22,7 @@ class AuthController extends BaseController
         }
 
         $data['title'] = 'Login & Register';
-        return view('indexView');
+        return view('indexView', $data);
     }
 
     // Memproses registrasi (khusus siswa)

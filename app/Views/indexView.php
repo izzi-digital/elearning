@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-Learning</title>
+  <title><?= $title ?></title>
 
   <!-- <link rel="stylesheet" href="public/assets/student/templatemo-glossy-touch.css"> -->
   <!-- <link rel="stylesheet" href="public/assets/student/style.css"> -->
@@ -65,7 +65,7 @@
               <circle cx="40" cy="40" r="1" opacity="0.6" />
             </svg>
           </div>
-          <span>E-Learning</span>
+          <span>Smart Learning</span>
         </div>
       </nav>
     </div>
