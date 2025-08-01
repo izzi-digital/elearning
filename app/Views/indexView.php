@@ -6,8 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E-Learning</title>
 
-  <link rel="stylesheet" href="assets/student/templatemo-glossy-touch.css?r=" <?= time() ?>>
-  <link rel="stylesheet" href="<?= base_url() . 'assets/student/style.css?r=' . time() ?>">
+  <!-- <link rel="stylesheet" href="public/assets/student/templatemo-glossy-touch.css"> -->
+  <!-- <link rel="stylesheet" href="public/assets/student/style.css"> -->
+  <link rel="stylesheet" href="<?= base_url('assets/student/templatemo-glossy-touch.css?r=' . time()) ?>">
+  <link rel="stylesheet" href="<?= base_url('assets/student/style.css?r=' . time()) ?>">
+
+
   <style>
     .card {
       padding: 20px 50px;
@@ -74,7 +78,7 @@
         <section class="contact-grid">
           <div class="contact-form glass">
             <h2>Sign In</h2>
-            <?= form_open(base_url('login')) ?>
+            <?= form_open(site_url('login')) ?>
             <div class="form-group">
               <label for="email-login">Email Address</label>
               <input type="email" id="email-login" name="email" placeholder="Enter your email" required>
@@ -101,7 +105,7 @@
 
           <div class="contact-info glass">
             <h2>Register</h2>
-            <?= form_open(base_url('register')) ?>
+            <?= form_open(site_url('register')) ?>
             <div class="form-group">
               <label for="full_name">Full Name</label>
               <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
@@ -151,9 +155,10 @@
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="<?= base_url() . 'assets/student/script.js?r=' . time() ?>"></script>
-  <script src="assets/student/templatemo-glossy-touch.js?r=" <?= time() ?>></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="<?= base_url('assets/student/style.css?r=' . time()) ?>">
+  <script src="<?= base_url('assets/student/script.js?r=' . time()) ?>"></script>
+  <script src="<?= base_url('assets/student/script.js?r=' . time()) ?>"></script>
+  <script src=" https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script>
     <?php
     if (session()->getFlashdata('info')) {
